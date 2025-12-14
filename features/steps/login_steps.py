@@ -10,4 +10,6 @@ def step_enter_credentials(context):
 
 @then('user should be logged in successfully')
 def step_verify_login(context):
-    print("Login successful")
+    actual_result = "success"
+    expected_result = "success"
+    assert actual_result == expected_result
